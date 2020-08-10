@@ -19,7 +19,6 @@ while True:
         if data:
             print("[+] QR Code detected, data:", data)
             print(bbox)
-            print("git test")
     # display the result
     cv2.imshow("img", img)
     if cv2.waitKey(1) == ord("q"):
